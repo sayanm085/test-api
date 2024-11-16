@@ -162,7 +162,7 @@ let data=
 
 // Define a route that renders the "login" view
 app.get('/', (req, res) => {
-  res.render('login');
+  res.send("server is working");
 });
 
 app.get('/api', (req, res) => {
