@@ -5,7 +5,7 @@ import crypto from 'crypto';
 let app = express();
 
 app.use(cors({
-    origin: "*" , // Allow all origins
+    origin: true, // Allow all origins
     credentials: true, // Allow cookies to be sent
     allowedHeaders: ['Content-Type', 'Authorization ']
 }));
